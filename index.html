@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="House of Zuri — selected garment production samples and manufacturing work for fashion brands.">
+  <title>House of Zuri | Garment Production & Manufacturing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="House of Zuri home">HOUSE OF ZURI</a>
+    <nav><a href="#samples">Samples</a><a href="#capabilities">Capabilities</a><a href="#brands">For Brands</a><a class="nav-cta" href="#contact">Start a conversation</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">GARMENT PRODUCTION &amp; MANUFACTURING</p>
+        <h1>Made with intention.<br><em>Built for brands.</em></h1>
+        <p class="lede">Selected production samples and garment work from House of Zuri — presented for fashion businesses looking for a production partner.</p>
+        <a class="button" href="#samples">View production samples <span>↓</span></a>
+      </div>
+      <div class="hero-image">
+        <img src="images/sample-01.jpg" alt="House of Zuri garment sample on a dress form" fetchpriority="high">
+      </div>
+    </section>
+
+    <section id="samples" class="section wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK</p><h2>Production samples</h2></div>
+        <p>Real garment samples from the House of Zuri work archive.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter samples">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="dresses">Dresses</button>
+        <button class="filter" data-filter="print">Print &amp; Ankara</button>
+        <button class="filter" data-filter="looks">Styled looks</button>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section id="capabilities" class="capabilities">
+      <div class="wrap capability-grid">
+        <div><p class="eyebrow">WHAT WE DO</p><h2>From sample to production.</h2><p class="muted">House of Zuri can support fashion businesses through key stages of garment development and production.</p></div>
+        <div class="cap-list">
+          <div><span>01</span><strong>Pattern Making</strong></div>
+          <div><span>02</span><strong>Sample Development</strong></div>
+          <div><span>03</span><strong>Cutting</strong></div>
+          <div><span>04</span><strong>CMT Manufacturing</strong></div>
+          <div><span>05</span><strong>Bulk Production</strong></div>
+          <div><span>06</span><strong>Quality Control</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="brands" class="brands wrap">
+      <div class="brand-card">
+        <p class="eyebrow">FOR FASHION BRANDS</p>
+        <h2>A production partner for your next collection.</h2>
+        <p>Whether you have a finished design or need support developing a garment, we can discuss the right production approach for your business.</p>
+        <ul>
+          <li>Client-provided designs</li>
+          <li>House of Zuri-developed designs</li>
+          <li>Samples and prototypes</li>
+          <li>Small and bulk production</li>
+          <li>Recurring production orders</li>
+        </ul>
+      </div>
+      <div class="brand-note"><span>HOUSE OF ZURI</span><p>Selected samples shown are intended as a visual introduction to our garment work. Production scope, quantities, timelines and pricing are discussed per project.</p></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap contact-inner">
+        <p class="eyebrow">LET'S TALK PRODUCTION</p>
+        <h2>Have a design or collection<br>you want produced?</h2>
+        <p>Let's discuss your next production order.</p>
+        <!-- Replace 254700000000 with the House of Zuri production WhatsApp number before publishing. -->
+        <a class="button light" href="https://wa.me/254719262378?text=Hello%20House%20of%20Zuri%2C%20I%27d%20like%20to%20discuss%20garment%20production." target="_blank" rel="noopener">WhatsApp House of Zuri <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap"><span>HOUSE OF ZURI</span><span>Garment Production &amp; Manufacturing</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" aria-label="Close image">×</button>
+    <button class="prev" aria-label="Previous image">‹</button>
+    <img id="lightbox-img" alt="">
+    <button class="next" aria-label="Next image">›</button>
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
